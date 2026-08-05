@@ -113,24 +113,3 @@ src/
 
 None required. The application is fully self-contained and runs without external services or API keys.
 
-## Deployment on Vercel
-
-The project is configured for zero-config deployment on [Vercel](https://vercel.com).
-
-1. Push this repository to GitHub (or GitLab/Bitbucket).
-2. In Vercel, choose **Add New → Project** and import the repository.
-3. Vercel auto-detects Next.js — keep the defaults (build command: `npm run build`).
-4. No environment variables are needed.
-5. Click **Deploy**.
-
-Local production check before pushing:
-
-```bash
-npm run build
-```
-
-### Notes for deployment
-
-- The `.next/` folder is build output and is intentionally gitignored — Vercel regenerates it on every build.
-- All routes are statically prerendered by default; dynamic routes (`/jobs/[id]`, `/companies/[slug]`, `/blog/[slug]`, `/u/[id]`) are server-rendered on demand.
-
