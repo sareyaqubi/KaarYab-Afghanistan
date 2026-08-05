@@ -4,6 +4,8 @@
 
 KaarYab (کاروب) connects Afghan talent with opportunities. It is a fully client-side Next.js application featuring a jobs explorer, company profiles with reviews, public applicant profiles, role-based dashboards, messaging, a career blog, and full multilingual support in English, Dari (فارسی) and Pashto (پښتو).
 
+**Live demo:** [https://kaar-yab-afghanistan-7k13.vercel.app/] (https://kaar-yab-afghanistan-7k13.vercel.app/)
+
 ---
 
 ## Features
